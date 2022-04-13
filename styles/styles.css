@@ -1,0 +1,52 @@
+* {
+    margin: 5px;
+    padding: 5px;
+}
+header{
+    height: 100px;
+    min-width:100%;
+    }
+    /*header and footer*/
+header,footer {
+    height: 100px;
+    min-width:50%;
+    background-color: black;
+    color: red;
+}
+main {
+    min-height: 100vh;
+    background-color: grey;
+    top: 100px;
+    bottom: 100px;
+}
+#logo{
+    width: 5em;
+    height: 5em;
+    margin-bottom: 9px;
+    margin-top: -75px;
+}
+/* navigation element*/
+nav {
+    margin-left: 100px;
+}
+ul {
+    display: inline-flex;
+}
+/* list*/
+li {
+    list-style:none;
+    padding-right: 10px;
+}
+
+form {
+    text-align: center;
+}
+a {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+a:visited {
+    color:white;
+}
